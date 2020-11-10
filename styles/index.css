@@ -32,5 +32,9 @@
 }
 
 @media (max-width: 979px) {
-    
+     .row11{
+		margin-top: 20px; 
+		margin-left: 10%;
+		display: hidden !important; 
+    }
  }
