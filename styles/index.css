@@ -1,0 +1,36 @@
+.nav-item{
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 29px;
+	color: #04172A;
+
+}
+
+.top-left-bg{
+	background: #04172A;
+}
+
+.top-left-text{
+	font-family: Gabriola;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 82px;
+	color: #F8F8F6;
+
+}
+
+.top-right-bg{
+	background: #F9BA18;
+}
+
+.row11{
+	margin-top: 150px; 
+	margin-left: -100px;
+}
+
+@media (max-width: 979px) {
+    
+ }
