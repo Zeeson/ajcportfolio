@@ -31,6 +31,55 @@
 	margin-left: -100px;
 }
 
+.education {
+	line-height: 15px;
+}
+.work{
+	border: 1px solid white; 
+	background: rgba(84, 209, 219, 0.1);
+background-blend-mode: luminosity;
+margin-left: -50px; 
+margin-top: -130px;
+
+}
+.edu-svg{
+	margin-top: -80px !important; 
+}
+
+.work-card{
+	margin-top: -126px; 
+}
+
+#button1 {
+	width: 470px; 
+	margin-left: -380px; 
+	background: #04172A !important;
+  position: absolute !important;
+  z-index: 10 !important;
+  left: 0px !important;
+  bottom: 430px !important;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform-origin: top right;
+}
+
+.button-mail{
+	background: #FBB405;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px !important;
+}
+
+.green-cycle{
+	margin-top: 50px !important; 
+	margin-left: -12px !important; 
+}
+
+
+
+
 @media (max-width: 979px) {
      .row11{
 		margin-top: 20px; 
