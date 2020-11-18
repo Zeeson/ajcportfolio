@@ -1,3 +1,7 @@
+body{
+	max-width: 1440px; 
+}
+
 .nav-item{
 	font-family: DM Sans;
 	font-style: normal;
@@ -37,9 +41,9 @@
 .work{
 	border: 1px solid white; 
 	background: rgba(84, 209, 219, 0.1);
-background-blend-mode: luminosity;
-margin-left: -50px; 
-margin-top: -130px;
+	background-blend-mode: luminosity;
+	margin-left: -50px; 
+	margin-top: -130px;
 
 }
 .edu-svg{
@@ -54,16 +58,16 @@ margin-top: -130px;
 	width: 470px; 
 	margin-left: -380px; 
 	background: #04172A !important;
-  position: absolute !important;
-  z-index: 10 !important;
-  left: 0px !important;
-  bottom: 430px !important;
-  transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform-origin: top right;
+	  position: absolute !important;
+	  z-index: 10 !important;
+	  left: 0px !important;
+	  bottom: 430px !important;
+	  transform: rotate(-90deg);
+	  -ms-transform: rotate(-90deg);
+	  -moz-transform: rotate(-90deg);
+	  -webkit-transform: rotate(-90deg);
+	  -o-transform: rotate(-90deg);
+	  transform-origin: top right;
 }
 
 .button-mail{
@@ -81,9 +85,76 @@ margin-top: -130px;
 
 
 @media (max-width: 979px) {
+	body{
+		max-width: 900px; 
+	}
      .row11{
 		margin-top: 20px; 
 		margin-left: 10%;
 		display: hidden !important; 
     }
+    .stay-upto-date{
+    	margin-left: -100px !important; 
+    }
+    .work-image{
+    	width: 96% !important; 
+    	margin-top: -30px !important; 
+    }
+    .work-text-one{
+    	margin-top: 30px; 
+    }
+    .work-text-two{
+    	margin-top: 30px; 
+    }
+  .work-image-two{
+  		width: 96% !important; 
+    	margin-left: 30px !important; 
+  }  
+  .work-image-three{
+  		width: 96% !important; 
+    	margin-top: 30px !important; 
+  }
+  
+  .work{
+	border: 1px solid white; 
+	background: rgba(84, 209, 219, 0.1);
+	background-blend-mode: luminosity;
+	margin-left: 50px; 
+	/*margin-top: 130px !important;*/
+}
+
+.edu-svg{
+	display: none !important;
+}
+.education-small{
+	margin-top: 30px !important; 
+}
+
+.work-small{
+	margin-top: 10px !important; 
+	margin-left: 30px; 
+}
+.work-list{
+	margin-top: -60px !important; 
  }
+#button1 {
+	width: 80%; 
+	margin-left: 60px; 
+	margin-bottom: -490px !important; 
+	background: #04172A !important;
+	position: absolute !important;
+	z-index: 10 !important;
+	left: 0px !important;
+	bottom: 430px !important;
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(360deg);
+	 -o-transform: rotate(180deg);
+	 transform-origin: top right;
+}
+.bottom-container{
+	margin-top: 40px; 
+}
+
+}
