@@ -1,5 +1,5 @@
 body{
-	max-width: 1440px; 
+	max-width: 1400; 
 }
 
 .nav-item{
@@ -9,11 +9,20 @@ body{
 	font-size: 22px;
 	line-height: 29px;
 	color: #04172A;
+}
+.nav-rectangle{
+	color: #04172A;
+}
 
+.hero-row{
+	width: 1400px;
 }
 
 .top-left-bg{
 	background: #04172A;
+	position: absolute;
+	width: 900px;
+	height: 750px;
 }
 
 .top-left-text{
@@ -28,11 +37,16 @@ body{
 
 .top-right-bg{
 	background: #F9BA18;
+	position: absolute;
+	width: 500px;
+	height: 750px;
 }
 
 .row11{
 	margin-top: 150px; 
-	margin-left: -100px;
+	margin-left: -150px;
+	width: 400px;
+	height: 440px;
 }
 
 .education {
