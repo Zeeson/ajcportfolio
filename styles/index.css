@@ -18,9 +18,13 @@ body{
 	width: 1400px;
 }
 
+.playground{
+	width: 1400px;
+}
+
 .top-left-bg{
 	background: #04172A;
-	position: absolute;
+	position: relative;
 	width: 900px;
 	height: 750px;
 }
@@ -37,14 +41,14 @@ body{
 
 .top-right-bg{
 	background: #F9BA18;
-	position: absolute;
+	position: relative;
 	width: 500px;
 	height: 750px;
 }
 
 .row11{
 	margin-top: 150px; 
-	margin-left: -150px;
+	margin-left: -100px;
 	width: 400px;
 	height: 440px;
 }
@@ -95,16 +99,66 @@ body{
 	margin-left: -12px !important; 
 }
 
+@media only screen and (min-width: 768px){
 
-
-
-@media (max-width: 979px) {
-	body{
-		max-width: 900px; 
+	.hero-row{
+		width: 1400px !important;
 	}
+
+	.row11{
+	margin-top: 150px; 
+	margin-left: -180px;
+	width: 400px;
+	height: 440px;
+	}	
+	.playground{
+	width: 100% !important;
+	}
+	.playground-text{
+		margin-right: 50px; 
+	}
+
+
+}
+
+
+@media only screen and (max-width: 768px)  {
+	body{
+		max-width: 100% !important; 
+		margin-right: auto;
+	}
+
+	[class*="col-"] {
+    width: 100%;
+  }
+	.hero-row{
+		width: 497px !important;
+	}
+	.top-left-bg{
+		background: #04172A;
+		position: relative;
+		width: 100% !important;
+		height: 850px;
+	}
+	.top-left-text{
+		font-family: Gabriola;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 48px;
+		line-height: 82px;
+		color: #F8F8F6;
+
+	}
+	.top-right-bg{
+		background: #F9BA18;
+		position: relative;
+		width: 100% !important;
+		height: 550px;
+	}
+
      .row11{
 		margin-top: 20px; 
-		margin-left: 10%;
+		margin-left: 7%;
 		display: hidden !important; 
     }
     .stay-upto-date{
@@ -169,6 +223,10 @@ body{
 }
 .bottom-container{
 	margin-top: 40px; 
+}
+
+.playground{
+	width: 487px !important;
 }
 
 }
